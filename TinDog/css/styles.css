@@ -1,0 +1,157 @@
+/* ----------------------Elements---------------------- */
+
+body{
+    /* color: aliceblue; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:normal;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size:3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    color: #8f8f8f;
+}
+a{
+    color: antiquewhite;
+}
+/* ----------------------Classes---------------------- */
+
+.container-fluid{
+    padding: 5% 15%;
+    overflow: hidden;
+}
+/* -------navbar------- */
+.navbar-brand{
+    font-size: 40px;
+}
+.navbar{
+    padding-bottom:4rem ;
+}
+.collapse{
+    font-size: 20px;
+}
+
+/*------- download buttons------- */
+.download_btn{
+    margin: 5%  2%;
+}
+
+.container_title {
+    width: 400px;
+    height: 500px;
+    padding-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+  
+.rotating-image {
+    position: absolute;
+    width: 60%;
+    right: 20%;
+    bottom: -10px;
+    transform: rotate(20deg);
+  }
+.row{
+}
+.title_line{
+    text-align: left;
+    color: aliceblue;
+}
+
+/*----------- icons------- */
+.icon_color{
+    color: #f97070;
+    padding-bottom: 10px;
+}
+.icon_color:hover{
+    color: #f73232;
+}
+.feature_box{
+    padding: 4%;
+}
+/* -----------Press section----------- */
+
+.press_img_size{
+    width: 20%;
+    padding: 3%;
+}
+.rounded-circle{
+    width: 8%;
+}
+/* -----------Price section----------- */
+.price_title{
+    padding: 30px;
+}
+.signup-h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn_signup{
+    width: 100%;
+}
+.card{
+    /* margin: 0.01%; */
+}
+/* -----------cta section----------- */
+.cta_h3{
+    font-size: 3rem;
+}
+
+/*-----------footer-----------  */
+.footer_icon{
+    padding: 2%;
+}
+
+/* ----------------------Media Queries---------------------- */
+
+@media screen and (max-width: 992px) {
+    .title_line{
+        text-align: center;
+    }
+    .rotating-image{
+        transform: rotate(0deg);
+       /* background-color: rgb(9, 121, 219); */
+    }
+    .container_title
+    {
+        margin: 5% auto;
+    }
+  }
+/* ----------------------IDs---------------------- */
+#title{
+   background-color: #fb5252; 
+}
+#features{
+    padding-top: 5%;
+    padding-bottom:5% ;
+}
+#testimonials{
+    background-color: #fb5252;
+    color: white;
+    line-height: 3;
+    padding-bottom: 5%;
+}
+#press{
+    background-color: #fb5252;
+    padding-bottom: 5%;
+}
+#pricing{
+    padding-top: 20px;
+}
+#cta{
+    background-color: #fb5252;
+    padding:  3% 0 1%;
+    line-height: 10;
+    /* padding-bottom:10% ; */
+}
+#footer{
+}
